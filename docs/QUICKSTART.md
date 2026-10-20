@@ -11,6 +11,10 @@
 9. Archivist independently checks continuity and either returns specific fix requests or promotes the chapter according to `chapter_approval`.
 10. Read the links to the approved chapter. Repeat.
 
+## Prefer guided setup?
+
+You can ask **any AI assistant** to guide you instead of studying the instructions. Open [AI_SETUP_GUIDE.md](../AI_SETUP_GUIDE.md) and copy its starter prompt. The AI should explain one action at a time, help prepare files, and be clear about which files it can actually read or save. A specific AI provider is **not required**.
+
 ## Important
 Under the default policy **you do not approve each chapter**. You approve fundamental canon changes; Archivist handles normal chapter approval. To require chapter sign-off set `workflow.chapter_approval` to `HUMAN_EACH_CHAPTER`.
 

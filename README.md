@@ -4,6 +4,26 @@ A story-agnostic English template for writing long-form fiction with AI roles, c
 
 **This is a reusable workflow and a collection of instructions and files—not an app or an automated AI runtime.** You can run the steps in connected AI chats, or later build your own orchestration.
 
+## New here? Let an AI assistant guide you
+
+**You don't need programming or GitHub experience.** If you cannot—or simply don't want to—understand all the setup steps yourself, let an AI assistant explain them one question at a time.
+
+AIStoryWriter **is not tied to ChatGPT or any other specific model**. Assistants can help using the files you provide; whether they can read or modify your repository depends on their actual tools and permissions.
+
+**Copy this message into the AI of your choice:**
+
+~~~text
+Help me set up AIStoryWriter as a beginner. Read AI_SETUP_GUIDE.md,
+README.md, START.md, project.json, and docs/QUICKSTART.md from the
+repository or files I provide. Ask one question at a time, explain
+unfamiliar terms simply, and suggest easy defaults. If you cannot
+access or edit files, tell me what to upload or change manually.
+Never claim you saved something unless you verified it.
+Do not start writing a chapter until I request one.
+~~~
+
+**[AI Setup Guide — start here](AI_SETUP_GUIDE.md)** | [Manual Quickstart](docs/QUICKSTART.md)
+
 ## What it does
 - Keeps established canon separate from future ideas and working drafts.
 - Splits work among **Writer → Curator-Editor → Archivist**.
@@ -41,7 +61,7 @@ docs/                        quickstart, workflow and publication notes
 No role may silently rewrite an approved fact. Do not claim a write, synchronization, or approval happened until its result has been checked.
 
 ## What is intentionally not included
-No fictional franchise or specific characters, no imported game databases, no previous story's chapters, no secret tokens, no ChatGPT subscription integration.
+No fictional franchise or specific characters, no imported game databases, no previous story's chapters, no secret tokens, no built-in AI provider integration.
 
 ## Publication
 This clean repository has fresh Git history without earlier story archives. Review its contents, test the workflow, and choose a license before making it public. See [docs/PUBLISHING.md](docs/PUBLISHING.md).
