@@ -3,7 +3,7 @@
 This is a freshly initialized template repository with no imported story history. Before publishing it:
 1. Search the current files, paths and any branches for character names, franchise names, usernames, private links, API credentials and IDs.
 2. Validate JSON files, links and clean-role recovery. Do not include any completed story, personal backups or migration exports.
-3. Choose and add a LICENSE file. No license has been chosen yet.
+3. Confirm that the included [MIT License](../LICENSE) and copyright notice are appropriate for your release. Keep the license and copyright notice when redistributing.
 4. Test a fresh story to verify the Writer → Curator-Editor → Archivist workflow and that incomplete synchronization cannot be mistaken for chapter approval.
 5. Review repository visibility and settings, then publish only after the full review.
 

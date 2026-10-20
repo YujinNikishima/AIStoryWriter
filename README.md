@@ -64,6 +64,6 @@ No role may silently rewrite an approved fact. Do not claim a write, synchroniza
 No fictional franchise or specific characters, no imported game databases, no previous story's chapters, no secret tokens, no built-in AI provider integration.
 
 ## Publication
-This clean repository has fresh Git history without earlier story archives. Review its contents, test the workflow, and choose a license before making it public. See [docs/PUBLISHING.md](docs/PUBLISHING.md).
+This clean repository has fresh Git history without earlier story archives. Review its contents and test the workflow before making it public. See [docs/PUBLISHING.md](docs/PUBLISHING.md).
 
-Licensing has intentionally not been selected yet. Add a license of your choice before public distribution.
+**License:** [MIT](LICENSE) — you may use, modify and redistribute this template, including commercially, provided the copyright notice and license are preserved.
