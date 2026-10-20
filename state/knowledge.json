@@ -1,0 +1,6 @@
+{
+  "schema": "story-knowledge-v2",
+  "last_approved_chapter": null,
+  "characters": {},
+  "note": "Track what each character actually knows, suspects and does not know. Cite approved chapter or background evidence. Do not transfer research or narrator knowledge automatically."
+}

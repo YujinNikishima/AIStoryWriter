@@ -1,0 +1,48 @@
+{
+  "schema": "story-engine-template-v2",
+  "project_id": "CHANGE_ME_UNIQUE_ID",
+  "title": "YOUR_STORY_TITLE",
+  "repository": null,
+  "branch": null,
+  "story_language": "en",
+  "story_status": "PRE_CH001",
+  "chapter_latest_approved": null,
+  "chapter_working": null,
+  "roles": [
+    "WRITER",
+    "CURATOR_EDITOR",
+    "ARCHIVIST"
+  ],
+  "workflow": {
+    "order": [
+      "WRITER",
+      "CURATOR_EDITOR",
+      "ARCHIVIST"
+    ],
+    "chapter_approval": "ARCHIVIST_AFTER_REVIEW",
+    "fundamental_canon_decisions": "HUMAN_ONLY",
+    "curator_edits_working_text_directly": true,
+    "writer_only_writes_and_updates_own_safestate": true,
+    "archivist_independent_review": true,
+    "writer_rework": "MAJOR_CREATIVE_REWRITE_ONLY"
+  },
+  "storage": {
+    "mode": "GITHUB_ONLY",
+    "github": {
+      "working_path": "chapters/working/",
+      "approved_path": "chapters/approved/"
+    },
+    "google_drive": {
+      "working_folder_id": null,
+      "approved_folder_id": null,
+      "use_single_doc_per_chapter": true,
+      "move_same_doc_at_approval": true
+    }
+  },
+  "delivery": {
+    "mode": "LINKS_ONLY_NO_SPOILERS",
+    "working_links_only_on_request": true
+  },
+  "state_revision": 0,
+  "last_verified_commit": null
+}

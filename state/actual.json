@@ -1,0 +1,19 @@
+{
+  "schema": "story-actual-v2",
+  "last_approved_chapter": null,
+  "state_revision": 0,
+  "location": null,
+  "story_time": null,
+  "characters": {},
+  "inventory_and_resources": [],
+  "abilities_and_progression": [],
+  "events": [],
+  "promises_and_obligations": [],
+  "relationships": [],
+  "unresolved_threads": [],
+  "rules": [
+    "Only facts established by approved chapters or approved initial canon",
+    "Include a chapter reference when recording new event facts",
+    "Never treat plans, research or working drafts as events"
+  ]
+}
